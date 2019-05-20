@@ -1,0 +1,123 @@
+nav.menu{
+    height: 40px;
+}
+.menu>ul{
+    display: none;
+}
+.ver{
+    display: block;
+    position: absolute;
+    top:40px;
+    right:0;
+    width: 200px;
+    height: 190px;
+    background-color: #202529;
+}
+.ver>li{
+    height: 20px;
+    box-sizing: border-box;
+    display: block;
+    margin: 17px 0 5px 20px;
+    font:10px/0 Montserrat, Myriad Pro,sans-serif;
+    color:#ffffff;
+}
+.ver>li a:hover{
+    color: darkgray;
+}
+.ver{
+    display: none;
+}
+.menu>h1{
+    font:16px/0 Montserrat, Myriad Pro,sans-serif;
+    color: #ffffff;
+    display: block;
+
+}
+div.vmenu{
+    height: inherit;
+    width: 80px;
+    display: flex;
+    margin-left: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+div.vmenu:hover{
+    background: #202529;
+}
+.menu>div:hover .ver{
+    display: block;
+}
+
+div.vmenu>div{
+    margin-bottom: 5px;
+    background:#ffffff;
+    height: 4px;
+    width: 30px;
+
+}
+/*====Header====*/
+div.headbanner{
+    height: 180px;
+}
+div.bannertext>h1{
+    margin-bottom: 15px;
+    font: 20px/25px  Montserrat, Myriad Pro,sans-serif;
+}
+div.bannertext>a{
+    font: 16px/0 Montserrat, Myriad Pro,sans-serif;
+}
+div.bannertext>a.textdec {
+    font: bold 20px/0 Quicksand, Myriad Pro, sans-serif;
+}
+
+div.content{
+    height: 150px;
+}
+div.bigtextbox{
+}
+div.smalltextbox {
+    height: inherit;
+
+}
+div.bannertext>a.textdec{
+    margin-left: 100px;
+
+}
+/*=======*/
+div.content{
+    height: 75px;
+}
+div.bigtextbox{
+    font: 8px/0 Montserrat, Myriad Pro,sans-serif;;
+}
+div.smalltextbox{
+    font:bold 25px/0 Quicksand, Myriad Pro,sans-serif;
+
+}
+/*===========*/
+div.contentimg{
+    flex-direction: column;
+}
+div.contentimg>div,div.contentimg>div>img{
+    width: 100%;
+    min-height:275px;
+}
+/*====*/
+div.foottext{
+    width:200px ;
+    font: 10px/15px Montserrat, Myriad Pro,sans-serif;
+
+}
+div.foottext a{
+    font-size: 35px;
+
+}
+.foottext .second{
+    display: none;
+}
+.foottext .first{
+    width:300px ;
+    font: 18px/20px Montserrat, Myriad Pro,sans-serif;
+}

@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font:0/0 Montserrat, Myriad Pro,sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #ebebeb;
+}
+li{
+    list-style: none;
+    display: inline-flex;
+}
+a {
+    text-decoration: none;
+    color:#ffffff;
+}
+
+/*===========Header===========*/
+header{
+    width: 100%;
+}
+nav.menu{
+    background: #373c3f;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 50px;
+}
+
+nav.menu>ul>li>a{
+    font:15px/10px Montserrat, Myriad Pro,sans-serif;
+    padding-right:20px;
+}
+nav.menu>ul>li>a:hover{
+    color:darkgray;
+}
+div.headbanner{
+    width: 100%;
+    background: #17b2c5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.bannertext{
+
+}
+div.bannertext>h1{
+    color: #ffffff;
+
+}
+div.bannertext>a{
+    font: 34px/30px Montserrat, Myriad Pro,sans-serif;
+    color:#a6d6df;
+}
+div.bannertext>a.light{
+    color:#6cbecd;
+}
+div.bannertext>a.textdec{
+    font:bold 36px/0 Quicksand, Myriad Pro,sans-serif;
+    color: #ffffff;
+    display: inline-block;
+    margin-left: 460px;
+
+}
+/*==============Content==============*/
+div.content{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+div.content>div{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: top;
+
+}
+div.bigtextbox{
+    padding: 0;
+    margin: 0;
+    height: inherit;
+    width: 77%;
+    background:#27212c ;
+    color:#9282a0;
+    font-size: 20px;
+}
+.bigtextbox h1{
+
+}
+div.smalltextbox{
+    padding: 0;
+    margin: 0;
+    height: inherit;
+    width: 23%;
+    background: #bc3183;
+    font:bold 45px/0 Quicksand, Myriad Pro,sans-serif;
+    text-decoration: none;
+
+}
+/*===========*/
+
+div.contentimg{
+    margin: 0;
+    min-height: 290px;
+    display: flex;
+    vertical-align: top;
+    flex-wrap: wrap;
+}
+
+div.contentimg>div>img{
+    min-height: 290px;
+    max-width: 100%;
+    align-self: center
+}
+div.linkimg{
+    font-size: 65px;
+    color: #ffffff;
+    width: 34%;
+    background: #5b0fa1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+div.linkimg>h1{
+    font:bold 50px/0 Quicksand, Myriad Pro,sans-serif;
+
+
+}
+/*===============footer==================*/
+footer{
+    min-height: 560px;
+}
+div.foottext{
+    width: 860px;
+    height: 335px;
+    margin:  70px auto;
+    font: 15px/30px Montserrat, Myriad Pro,sans-serif;
+}
+div.foottext>a{
+    font-size: 35px;
+    color: #088ca5
+}
+div.foottext>div{
+    margin: 20px 0;
+}
+div.first{
+    margin-right: 30px;
+}
+div.first, div.second{
+    display: inline-block;
+    width: 405px;
+}
